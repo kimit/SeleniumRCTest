@@ -5,7 +5,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ DetailSheetSmoke01.class, DetailSheetSmoke02.class })
+@SuiteClasses({ DetailSheetSmoke01.class, DetailSheetSmoke02.class,
+				Search_Smoke_New.class, Search_Multiple_new.class})
 public class AllTests {
 
 }

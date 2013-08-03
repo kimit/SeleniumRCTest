@@ -10,7 +10,7 @@ public class DetailSheetSmoke02 extends TestBase {
 		assertTrue(selenium.isElementPresent("//div[@id='detailSheet']/img[@src='img/dogs/boxer1.jpg']"));
 		assertTrue(selenium.isTextPresent("Ann"));
 		selenium.click("//div[@id='detailSheet']/img[@src='img/icon_close.png']");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		assertFalse(selenium.isElementPresent("id=detailSheet"));
 	}
 }
